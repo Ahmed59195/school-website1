@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Al-Noor Academy",
+    "subtitle": "Illuminating Minds, Building Futures",
+    "tagline": "Where Faith Meets Excellence in Education",
+    "applyNow": "Apply Now",
+    "learnMore": "Learn More",
+    "watchVideo": "Watch Video"
+  },
+  "stats": {
+    "title": "Our Impact",
+    "students": "Students",
+    "teachers": "Teachers",
+    "yearsOfExcellence": "Years of Excellence",
+    "passRate": "Pass Rate"
+  },
+  "announcements": {
+    "title": "Latest Announcements",
+    "viewAll": "View All"
+  },
+  "about": {
+    "title": "Welcome to Al-Noor Academy",
+    "subtitle": "About Our School",
+    "description": "Al-Noor Academy is committed to providing a holistic education that nurtures both academic excellence and moral character. Our students are guided to become responsible citizens and future leaders.",
+    "mission": "Our Mission",
+    "missionText": "To provide quality Islamic education integrated with modern curriculum, developing well-rounded individuals who excel academically and spiritually.",
+    "readMore": "Read More About Us"
+  },
+  "news": {
+    "title": "Latest News & Updates",
+    "subtitle": "Stay informed about school events and achievements",
+    "readMore": "Read More",
+    "viewAll": "View All News"
+  },
+  "testimonials": {
+    "title": "What Parents Say",
+    "subtitle": "Hear from our school community"
+  },
+  "cta": {
+    "title": "Begin Your Child's Journey with Us",
+    "subtitle": "Admissions are now open for the upcoming academic year. Join our community of learners and achievers.",
+    "applyNow": "Apply Now",
+    "contactUs": "Contact Us",
+    "downloadProspectus": "Download Prospectus"
+  },
+  "features": {
+    "title": "Why Choose Al-Noor Academy?",
+    "qualifiedTeachers": "Qualified Teachers",
+    "qualifiedTeachersDesc": "Experienced educators dedicated to student success",
+    "islamicValues": "Islamic Values",
+    "islamicValuesDesc": "Education rooted in Islamic principles and ethics",
+    "modernFacilities": "Modern Facilities",
+    "modernFacilitiesDesc": "State-of-the-art classrooms and laboratories",
+    "holisticDevelopment": "Holistic Development",
+    "holisticDevelopmentDesc": "Focus on academic, spiritual, and physical growth"
+  }
+}
