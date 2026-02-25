@@ -1,0 +1,105 @@
+{
+  "title": "Admissions",
+  "subtitle": "Join the Al-Noor Academy family and unlock your child's potential",
+  "process": {
+    "title": "Admission Process",
+    "description": "Our admission process is designed to be straightforward and welcoming",
+    "steps": {
+      "inquiry": {
+        "title": "Submit Inquiry",
+        "description": "Fill out the online application form with student and guardian details"
+      },
+      "documents": {
+        "title": "Upload Documents",
+        "description": "Submit required documents including previous academic records"
+      },
+      "assessment": {
+        "title": "Assessment",
+        "description": "Student undergoes age-appropriate assessment test"
+      },
+      "interview": {
+        "title": "Interview",
+        "description": "Parent and student interview with admissions committee"
+      },
+      "decision": {
+        "title": "Admission Decision",
+        "description": "Receive admission decision within 5-7 business days"
+      },
+      "enrollment": {
+        "title": "Enrollment",
+        "description": "Complete fee payment and enrollment formalities"
+      }
+    }
+  },
+  "fees": {
+    "title": "Fee Structure",
+    "description": "Transparent and competitive fee structure for quality education",
+    "academic": "Annual Academic Year 2025-2026",
+    "admission": {
+      "title": "Admission Fee",
+      "description": "One-time payment upon admission"
+    },
+    "tuition": {
+      "title": "Tuition Fee",
+      "description": "Monthly tuition fee varies by grade level"
+    },
+    "other": {
+      "title": "Other Fees",
+      "description": "Lab fees, library fees, and activity charges"
+    },
+    "grades": {
+      "primary": "Primary (Grades 1-5)",
+      "middle": "Middle (Grades 6-8)",
+      "secondary": "Secondary (Grades 9-10)",
+      "higher": "Higher Secondary (Grades 11-12)"
+    },
+    "perMonth": "per month",
+    "oneTime": "one-time"
+  },
+  "requirements": {
+    "title": "Required Documents",
+    "documents": [
+      "Birth certificate (attested copy)",
+      "Previous school leaving certificate",
+      "Last two years academic records",
+      "Passport-size photographs (4 copies)",
+      "Parent/Guardian CNIC copies",
+      "Medical fitness certificate"
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "age": {
+        "question": "What is the minimum age for admission?",
+        "answer": "Children must be at least 5 years old by September 1st of the academic year for Grade 1 admission."
+      },
+      "deadline": {
+        "question": "What is the application deadline?",
+        "answer": "Applications are accepted year-round, but priority admission for the new academic year closes by May 31st."
+      },
+      "transfer": {
+        "question": "Do you accept mid-year transfers?",
+        "answer": "Yes, we accept mid-year transfers subject to seat availability and meeting academic requirements."
+      },
+      "scholarship": {
+        "question": "Are scholarships available?",
+        "answer": "Yes, merit-based and need-based scholarships are available for qualifying students."
+      },
+      "uniform": {
+        "question": "Is uniform required?",
+        "answer": "Yes, all students must wear the official school uniform available at the school store."
+      },
+      "transport": {
+        "question": "Is transportation provided?",
+        "answer": "Yes, school transport is available for most areas of Karachi for an additional fee."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Apply?",
+    "description": "Start your child's journey to excellence today",
+    "button": "Apply Now",
+    "contact": "Have questions? Contact our admissions team"
+  }
+}

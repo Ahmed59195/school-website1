@@ -1,0 +1,55 @@
+{
+  "title": "About Al-Noor Academy",
+  "subtitle": "Discover our story, mission, and commitment to educational excellence",
+  "history": {
+    "title": "Our History",
+    "content": "Founded in 1995, Al-Noor Academy has been a beacon of educational excellence in Karachi for over 25 years. What began as a small school with just 50 students has grown into a premier K-12 institution serving over 1,500 students today."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "content": "To provide a nurturing and challenging educational environment that empowers students to achieve academic excellence while developing strong moral character and a lifelong love of learning."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "content": "To be the leading educational institution in Pakistan, producing graduates who are innovative thinkers, ethical leaders, and responsible global citizens."
+  },
+  "values": {
+    "title": "Our Core Values",
+    "excellence": {
+      "title": "Excellence",
+      "description": "Striving for the highest standards in everything we do"
+    },
+    "integrity": {
+      "title": "Integrity",
+      "description": "Acting with honesty, transparency, and ethical behavior"
+    },
+    "respect": {
+      "title": "Respect",
+      "description": "Valuing diversity and treating all members of our community with dignity"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Embracing new ideas and approaches to enhance learning"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Building strong relationships and fostering a sense of belonging"
+    }
+  },
+  "principal": {
+    "title": "Principal's Message",
+    "name": "Dr. Ahmed Khan",
+    "position": "Principal & CEO",
+    "message": "Welcome to Al-Noor Academy. Our commitment to excellence in education goes beyond academics. We nurture well-rounded individuals who are prepared to face the challenges of tomorrow with confidence, compassion, and integrity."
+  },
+  "accreditations": {
+    "title": "Accreditations & Affiliations",
+    "description": "Al-Noor Academy is proud to be accredited by leading educational bodies and maintains affiliations with prestigious organizations."
+  },
+  "stats": {
+    "students": "Students Enrolled",
+    "teachers": "Qualified Teachers",
+    "years": "Years of Excellence",
+    "successRate": "University Success Rate"
+  }
+}

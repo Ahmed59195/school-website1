@@ -1,0 +1,84 @@
+{
+  "common": {
+    "welcome": "Welcome back",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "signOut": "Sign Out",
+    "notifications": "Notifications"
+  },
+  "student": {
+    "title": "Student Dashboard",
+    "attendanceRate": "Attendance Rate",
+    "averageScore": "Average Score",
+    "pendingFees": "Pending Fees",
+    "totalSubjects": "Total Subjects",
+    "recentGrades": "Recent Grades",
+    "upcomingEvents": "Upcoming Events",
+    "feeStatus": "Fee Status",
+    "schedule": "Class Schedule",
+    "assignments": "Assignments"
+  },
+  "parent": {
+    "title": "Parent Dashboard",
+    "children": "My Children",
+    "viewChild": "View Details",
+    "notifications": "Notifications",
+    "payFees": "Pay Fees"
+  },
+  "teacher": {
+    "title": "Teacher Dashboard",
+    "myClasses": "My Classes",
+    "markAttendance": "Mark Attendance",
+    "enterGrades": "Enter Grades",
+    "viewRoster": "View Roster",
+    "classSchedule": "Class Schedule"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "totalUsers": "Total Users",
+    "pendingApplications": "Pending Applications",
+    "totalStudents": "Total Students",
+    "totalTeachers": "Total Teachers",
+    "feeCollection": "Fee Collection",
+    "recentApplications": "Recent Applications",
+    "manageUsers": "Manage Users",
+    "systemSettings": "System Settings"
+  },
+  "attendance": {
+    "title": "Attendance",
+    "present": "Present",
+    "absent": "Absent",
+    "late": "Late",
+    "excused": "Excused",
+    "totalDays": "Total School Days",
+    "rate": "Attendance Rate"
+  },
+  "grades": {
+    "title": "Grades",
+    "subject": "Subject",
+    "assessment": "Assessment",
+    "score": "Score",
+    "grade": "Grade",
+    "term": "Term",
+    "noGrades": "No grades available"
+  },
+  "fees": {
+    "title": "Fees",
+    "description": "Description",
+    "amount": "Amount",
+    "dueDate": "Due Date",
+    "status": "Status",
+    "payNow": "Pay Now",
+    "paid": "Paid",
+    "pending": "Pending",
+    "overdue": "Overdue",
+    "partial": "Partial"
+  },
+  "events": {
+    "title": "Events",
+    "noEvents": "No upcoming events",
+    "location": "Location",
+    "time": "Time"
+  }
+}

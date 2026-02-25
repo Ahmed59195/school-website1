@@ -1,0 +1,71 @@
+{
+  "title": "Academics",
+  "subtitle": "Comprehensive curriculum designed for academic excellence",
+  "curriculum": {
+    "title": "Our Curriculum",
+    "description": "Al-Noor Academy follows a rigorous academic curriculum that combines international standards with local educational requirements.",
+    "primary": {
+      "title": "Primary School (Grades 1-5)",
+      "description": "Building strong foundations in literacy, numeracy, and critical thinking"
+    },
+    "middle": {
+      "title": "Middle School (Grades 6-8)",
+      "description": "Developing analytical skills and introducing specialized subjects"
+    },
+    "secondary": {
+      "title": "Secondary School (Grades 9-10)",
+      "description": "Preparing students for O-Level examinations with focused subject streams"
+    },
+    "higher": {
+      "title": "Higher Secondary (Grades 11-12)",
+      "description": "Advanced A-Level preparation with university pathway guidance"
+    }
+  },
+  "departments": {
+    "title": "Academic Departments",
+    "sciences": {
+      "title": "Sciences",
+      "subjects": ["Physics", "Chemistry", "Biology", "Computer Science"]
+    },
+    "mathematics": {
+      "title": "Mathematics",
+      "subjects": ["Pure Mathematics", "Applied Mathematics", "Statistics"]
+    },
+    "humanities": {
+      "title": "Humanities",
+      "subjects": ["History", "Geography", "Islamic Studies", "Pakistan Studies"]
+    },
+    "languages": {
+      "title": "Languages",
+      "subjects": ["English", "Urdu", "Arabic"]
+    },
+    "arts": {
+      "title": "Arts & Expression",
+      "subjects": ["Fine Arts", "Music", "Drama"]
+    }
+  },
+  "calendar": {
+    "title": "Academic Calendar",
+    "description": "View our academic calendar for important dates, events, and holidays",
+    "downloadText": "Download Academic Calendar",
+    "terms": {
+      "first": "First Term: September - December",
+      "second": "Second Term: January - March",
+      "third": "Third Term: April - June"
+    }
+  },
+  "results": {
+    "title": "Academic Results",
+    "description": "Our students consistently achieve outstanding results in national and international examinations",
+    "oLevel": "O-Level Pass Rate",
+    "aLevel": "A-Level Pass Rate",
+    "distinctions": "Students with Distinctions"
+  },
+  "facilities": {
+    "title": "Academic Facilities",
+    "library": "Modern Library",
+    "labs": "State-of-the-art Science Labs",
+    "computerLabs": "Computer Labs",
+    "smartClassrooms": "Smart Classrooms"
+  }
+}

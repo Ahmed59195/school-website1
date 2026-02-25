@@ -26,18 +26,18 @@
 
 **Purpose**: Project initialization and configuration
 
-- [ ] T001 Initialize shadcn/ui with `npx shadcn@latest init` and configure components.json
-- [ ] T002 [P] Install core shadcn/ui components: button, card, input, form, table, dialog, accordion, tabs, toast, skeleton, dropdown-menu, avatar, badge, separator
-- [ ] T003 [P] Install and configure next-themes in src/components/providers/theme-provider.tsx
-- [ ] T004 [P] Install and configure next-i18next with English/Urdu support in next-i18next.config.js
-- [ ] T005 [P] Configure Tailwind CSS theme colors and fonts in tailwind.config.ts
-- [ ] T006 [P] Create utility functions in src/lib/utils.ts (cn, formatDate, formatCurrency)
-- [ ] T007 [P] Create TypeScript types barrel export in src/types/index.ts
-- [ ] T008 [P] Create constants file in src/utils/constants.ts (routes, roles, status enums)
-- [ ] T009 Update Prisma schema with all entities from data-model.md in prisma/schema.prisma
-- [ ] T010 Run Prisma migrations with `npx prisma migrate dev --name init`
-- [ ] T011 Create database seed script in prisma/seed.ts with admin user, sample students, teachers, news, events
-- [ ] T012 Configure Prisma client singleton in src/lib/prisma.ts
+- [X] T001 Initialize shadcn/ui with `npx shadcn@latest init` and configure components.json
+- [X] T002 [P] Install core shadcn/ui components: button, card, input, form, table, dialog, accordion, tabs, toast, skeleton, dropdown-menu, avatar, badge, separator
+- [X] T003 [P] Install and configure next-themes in src/components/providers/theme-provider.tsx
+- [X] T004 [P] Install and configure next-i18next with English/Urdu support in next-i18next.config.js
+- [X] T005 [P] Configure Tailwind CSS theme colors and fonts in tailwind.config.ts
+- [X] T006 [P] Create utility functions in src/lib/utils.ts (cn, formatDate, formatCurrency)
+- [X] T007 [P] Create TypeScript types barrel export in src/types/index.ts
+- [X] T008 [P] Create constants file in src/utils/constants.ts (routes, roles, status enums)
+- [X] T009 Update Prisma schema with all entities from data-model.md in prisma/schema.prisma
+- [X] T010 Run Prisma migrations with `npx prisma migrate dev --name init`
+- [X] T011 Create database seed script in prisma/seed.ts with admin user, sample students, teachers, news, events
+- [X] T012 Configure Prisma client singleton in src/lib/prisma.ts
 
 ---
 
@@ -47,23 +47,23 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T013 Create root layout with providers (theme, i18n, toast, session) in src/app/layout.tsx
-- [ ] T014 [P] Create ThemeToggle component in src/components/layout/theme-toggle.tsx
-- [ ] T015 [P] Create LanguageSwitcher component in src/components/layout/language-switcher.tsx
-- [ ] T016 Create Navbar component with logo, nav links, theme toggle, language switcher, login button in src/components/layout/navbar.tsx
-- [ ] T017 Create mobile hamburger menu for Navbar (responsive drawer) in src/components/layout/mobile-menu.tsx
-- [ ] T018 [P] Create Footer component with school info, quick links, social icons, copyright in src/components/layout/footer.tsx
-- [ ] T019 Create public layout with Navbar and Footer in src/app/(public)/layout.tsx
-- [ ] T020 [P] Create PageHeader component (title + breadcrumb) in src/components/shared/page-header.tsx
-- [ ] T021 [P] Create SectionHeader component (heading + subtitle) in src/components/shared/section-header.tsx
-- [ ] T022 [P] Create LoadingSkeleton component in src/components/shared/loading-skeleton.tsx
-- [ ] T023 [P] Create EmptyState component in src/components/shared/empty-state.tsx
-- [ ] T024 [P] Create Pagination component in src/components/shared/pagination.tsx
-- [ ] T025 [P] Create base English translation files in public/locales/en/common.json
-- [ ] T026 [P] Create base Urdu translation files in public/locales/ur/common.json
-- [ ] T027 Create custom 404 page in src/app/not-found.tsx
-- [ ] T028 Create custom error page in src/app/error.tsx
-- [ ] T029 Create global loading component in src/app/loading.tsx
+- [X] T013 Create root layout with providers (theme, i18n, toast, session) in src/app/layout.tsx
+- [X] T014 [P] Create ThemeToggle component in src/components/layout/theme-toggle.tsx
+- [X] T015 [P] Create LanguageSwitcher component in src/components/layout/language-switcher.tsx
+- [X] T016 Create Navbar component with logo, nav links, theme toggle, language switcher, login button in src/components/layout/navbar.tsx
+- [X] T017 Create mobile hamburger menu for Navbar (responsive drawer) in src/components/layout/mobile-menu.tsx
+- [X] T018 [P] Create Footer component with school info, quick links, social icons, copyright in src/components/layout/footer.tsx
+- [X] T019 Create public layout with Navbar and Footer in src/app/(public)/layout.tsx
+- [X] T020 [P] Create PageHeader component (title + breadcrumb) in src/components/shared/page-header.tsx
+- [X] T021 [P] Create SectionHeader component (heading + subtitle) in src/components/shared/section-header.tsx
+- [X] T022 [P] Create LoadingSkeleton component in src/components/shared/loading-skeleton.tsx
+- [X] T023 [P] Create EmptyState component in src/components/shared/empty-state.tsx
+- [X] T024 [P] Create Pagination component in src/components/shared/pagination.tsx
+- [X] T025 [P] Create base English translation files in public/locales/en/common.json
+- [X] T026 [P] Create base Urdu translation files in public/locales/ur/common.json
+- [X] T027 Create custom 404 page in src/app/not-found.tsx
+- [X] T028 Create custom error page in src/app/error.tsx
+- [X] T029 Create global loading component in src/app/loading.tsx
 
 **Checkpoint**: Foundation ready - user story implementation can now begin
 
@@ -77,39 +77,39 @@
 
 ### Homepage Components
 
-- [ ] T030 [US1] Create HeroSection component with school name, tagline, Apply Now + Learn More CTAs in src/components/home/hero-section.tsx
-- [ ] T031 [P] [US1] Create StatsSection component with animated counters (students, teachers, years, pass rate) in src/components/home/stats-section.tsx
-- [ ] T032 [P] [US1] Create AnnouncementsTicker component with horizontal scrolling news in src/components/home/announcements-ticker.tsx
-- [ ] T033 [P] [US1] Create AboutPreview component with mission and link to About page in src/components/home/about-preview.tsx
-- [ ] T034 [P] [US1] Create NewsCard component for featured news items in src/components/news/news-card.tsx
-- [ ] T035 [P] [US1] Create NewsSection component displaying latest 3 news cards in src/components/home/news-section.tsx
-- [ ] T036 [P] [US1] Create TestimonialCard component for quotes in src/components/home/testimonial-card.tsx
-- [ ] T037 [P] [US1] Create TestimonialsSection component with carousel/grid in src/components/home/testimonials-section.tsx
-- [ ] T038 [P] [US1] Create CTASection component with Apply Now banner in src/components/home/cta-section.tsx
+- [X] T030 [US1] Create HeroSection component with school name, tagline, Apply Now + Learn More CTAs in src/components/home/hero-section.tsx
+- [X] T031 [P] [US1] Create StatsSection component with animated counters (students, teachers, years, pass rate) in src/components/home/stats-section.tsx
+- [X] T032 [P] [US1] Create AnnouncementsTicker component with horizontal scrolling news in src/components/home/announcements-ticker.tsx
+- [X] T033 [P] [US1] Create AboutPreview component with mission and link to About page in src/components/home/about-preview.tsx
+- [X] T034 [P] [US1] Create NewsCard component for featured news items in src/components/news/news-card.tsx
+- [X] T035 [P] [US1] Create NewsSection component displaying latest 3 news cards in src/components/home/news-section.tsx
+- [X] T036 [P] [US1] Create TestimonialCard component for quotes in src/components/home/testimonial-card.tsx
+- [X] T037 [P] [US1] Create TestimonialsSection component with carousel/grid in src/components/home/testimonials-section.tsx
+- [X] T038 [P] [US1] Create CTASection component with Apply Now banner in src/components/home/cta-section.tsx
 
 ### Homepage API & Page
 
-- [ ] T039 [US1] Create GET /api/announcements route in src/app/api/announcements/route.ts
-- [ ] T040 [P] [US1] Create GET /api/testimonials route in src/app/api/testimonials/route.ts
-- [ ] T041 [P] [US1] Create GET /api/settings route for school stats in src/app/api/settings/route.ts
-- [ ] T042 [US1] Assemble Homepage with all sections in src/app/(public)/page.tsx
-- [ ] T043 [US1] Create homepage translation file in public/locales/en/home.json
+- [X] T039 [US1] Create GET /api/announcements route in src/app/api/announcements/route.ts
+- [X] T040 [P] [US1] Create GET /api/testimonials route in src/app/api/testimonials/route.ts
+- [X] T041 [P] [US1] Create GET /api/settings route for school stats in src/app/api/settings/route.ts
+- [X] T042 [US1] Assemble Homepage with all sections in src/app/(public)/page.tsx
+- [X] T043 [US1] Create homepage translation file in public/locales/en/home.json
 
 ### About Page
 
-- [ ] T044 [US1] Create About Us page with history, mission/vision/values, principal message, accreditations in src/app/(public)/about/page.tsx
-- [ ] T045 [P] [US1] Create about page translation file in public/locales/en/about.json
+- [X] T044 [US1] Create About Us page with history, mission/vision/values, principal message, accreditations in src/app/(public)/about/page.tsx
+- [X] T045 [P] [US1] Create about page translation file in public/locales/en/about.json
 
 ### Academics Page
 
-- [ ] T046 [US1] Create Academics page with curriculum, grade levels, departments, calendar download, results in src/app/(public)/academics/page.tsx
-- [ ] T047 [P] [US1] Create academics page translation file in public/locales/en/academics.json
+- [X] T046 [US1] Create Academics page with curriculum, grade levels, departments, calendar download, results in src/app/(public)/academics/page.tsx
+- [X] T047 [P] [US1] Create academics page translation file in public/locales/en/academics.json
 - [ ] T048 [P] [US1] Add academic calendar PDF to public/documents/academic-calendar.pdf
 
 ### Admissions Page (Info Only)
 
-- [ ] T049 [US1] Create Admissions page with process steps, fee structure table, FAQ accordion in src/app/(public)/admissions/page.tsx
-- [ ] T050 [P] [US1] Create admissions page translation file in public/locales/en/admissions.json
+- [X] T049 [US1] Create Admissions page with process steps, fee structure table, FAQ accordion in src/app/(public)/admissions/page.tsx
+- [X] T050 [P] [US1] Create admissions page translation file in public/locales/en/admissions.json
 
 **Checkpoint**: User Story 1 complete - prospective parents can explore all informational pages
 
@@ -123,25 +123,25 @@
 
 ### Form Infrastructure
 
-- [ ] T051 [US2] Create Zod validation schema for application in src/lib/validations/application.ts
-- [ ] T052 [P] [US2] Create Cloudinary upload helper in src/lib/cloudinary.ts
-- [ ] T053 [P] [US2] Create SendGrid email helper in src/lib/email.ts
-- [ ] T054 [P] [US2] Create upload API route for signed URLs in src/app/api/upload/route.ts
+- [X] T051 [US2] Create Zod validation schema for application in src/lib/validations/application.ts
+- [X] T052 [P] [US2] Create Cloudinary upload helper in src/lib/cloudinary.ts
+- [X] T053 [P] [US2] Create SendGrid email helper in src/lib/email.ts
+- [X] T054 [P] [US2] Create upload API route for signed URLs in src/app/api/upload/route.ts
 
 ### Multi-Step Form Components
 
-- [ ] T055 [US2] Create ApplicationForm wrapper with step state and progress indicator in src/components/forms/application-form/index.tsx
-- [ ] T056 [P] [US2] Create Step1StudentInfo form (name, DOB, grade) in src/components/forms/application-form/step-1-student.tsx
-- [ ] T057 [P] [US2] Create Step2GuardianInfo form (guardian details) in src/components/forms/application-form/step-2-guardian.tsx
-- [ ] T058 [P] [US2] Create Step3Documents form with file upload in src/components/forms/application-form/step-3-documents.tsx
-- [ ] T059 [US2] Create Step4Review form with summary and submit in src/components/forms/application-form/step-4-review.tsx
+- [X] T055 [US2] Create ApplicationForm wrapper with step state and progress indicator in src/components/forms/application-form/index.tsx
+- [X] T056 [P] [US2] Create Step1StudentInfo form (name, DOB, grade) in src/components/forms/application-form/step-1-student.tsx
+- [X] T057 [P] [US2] Create Step2GuardianInfo form (guardian details) in src/components/forms/application-form/step-2-guardian.tsx
+- [X] T058 [P] [US2] Create Step3Documents form with file upload in src/components/forms/application-form/step-3-documents.tsx
+- [X] T059 [US2] Create Step4Review form with summary and submit in src/components/forms/application-form/step-4-review.tsx
 
 ### Application API & Page
 
-- [ ] T060 [US2] Create POST /api/applications route with validation and email in src/app/api/applications/route.ts
-- [ ] T061 [US2] Create application form page at src/app/(public)/admissions/apply/page.tsx
-- [ ] T062 [P] [US2] Create application success page at src/app/(public)/admissions/apply/success/page.tsx
-- [ ] T063 [P] [US2] Create forms translation file in public/locales/en/forms.json
+- [X] T060 [US2] Create POST /api/applications route with validation and email in src/app/api/applications/route.ts
+- [X] T061 [US2] Create application form page at src/app/(public)/admissions/apply/page.tsx
+- [X] T062 [P] [US2] Create application success page at src/app/(public)/admissions/apply/success/page.tsx
+- [X] T063 [P] [US2] Create forms translation file in public/locales/en/forms.json
 
 **Checkpoint**: User Story 2 complete - parents can submit admission applications
 
@@ -155,27 +155,27 @@
 
 ### Authentication Setup (Shared for US3-US6)
 
-- [ ] T064 Create NextAuth configuration with credentials provider in src/lib/auth.ts
-- [ ] T065 Create NextAuth route handler in src/app/api/auth/[...nextauth]/route.ts
-- [ ] T066 [P] Create Zod validation schema for login in src/lib/validations/auth.ts
-- [ ] T067 Create auth middleware protecting /portal/* routes in src/middleware.ts
-- [ ] T068 [P] Create LoginForm component with email/password in src/components/forms/login-form.tsx
-- [ ] T069 Create auth layout (centered card) in src/app/(auth)/layout.tsx
-- [ ] T070 Create login page in src/app/(auth)/login/page.tsx
-- [ ] T071 [P] Create auth translation file in public/locales/en/auth.json
+- [X] T064 Create NextAuth configuration with credentials provider in src/lib/auth.ts
+- [X] T065 Create NextAuth route handler in src/app/api/auth/[...nextauth]/route.ts
+- [X] T066 [P] Create Zod validation schema for login in src/lib/validations/auth.ts
+- [X] T067 Create auth middleware protecting /portal/* routes in src/middleware.ts
+- [X] T068 [P] Create LoginForm component with email/password in src/components/forms/login-form.tsx
+- [X] T069 Create auth layout (centered card) in src/app/(auth)/layout.tsx
+- [X] T070 Create login page in src/app/(auth)/login/page.tsx
+- [X] T071 [P] Create auth translation file in public/locales/en/auth.json
 
 ### Portal Layout (Shared for US3-US6)
 
-- [ ] T072 Create Sidebar component for portal navigation in src/components/layout/sidebar.tsx
-- [ ] T073 Create portal layout with sidebar and header in src/app/(portal)/layout.tsx
+- [X] T072 Create Sidebar component for portal navigation in src/components/layout/sidebar.tsx
+- [X] T073 Create portal layout with sidebar and header in src/app/(portal)/layout.tsx
 
 ### Student Dashboard Components
 
-- [ ] T074 [P] [US3] Create DashboardCard component (stat card with icon) in src/components/portal/dashboard-card.tsx
-- [ ] T075 [P] [US3] Create AttendanceSummary component (present/absent/late counts) in src/components/portal/attendance-summary.tsx
-- [ ] T076 [P] [US3] Create GradesTable component (subject, score, grade) in src/components/portal/grades-table.tsx
-- [ ] T077 [P] [US3] Create EventsWidget component (upcoming events list) in src/components/portal/events-widget.tsx
-- [ ] T078 [P] [US3] Create FeesWidget component (pending/paid status) in src/components/portal/fees-widget.tsx
+- [X] T074 [P] [US3] Create DashboardCard component (stat card with icon) in src/components/portal/dashboard-card.tsx
+- [X] T075 [P] [US3] Create AttendanceSummary component (present/absent/late counts) in src/components/portal/attendance-summary.tsx
+- [X] T076 [P] [US3] Create GradesTable component (subject, score, grade) in src/components/portal/grades-table.tsx
+- [X] T077 [P] [US3] Create EventsWidget component (upcoming events list) in src/components/portal/events-widget.tsx
+- [X] T078 [P] [US3] Create FeesWidget component (pending/paid status) in src/components/portal/fees-widget.tsx
 
 ### Student API Routes
 
@@ -186,8 +186,8 @@
 
 ### Student Dashboard Page
 
-- [ ] T083 [US3] Create student dashboard page in src/app/(portal)/student/page.tsx
-- [ ] T084 [P] [US3] Create portal translation file in public/locales/en/portal.json
+- [X] T083 [US3] Create student dashboard page in src/app/(portal)/student/page.tsx
+- [X] T084 [P] [US3] Create portal translation file in public/locales/en/portal.json
 
 **Checkpoint**: User Story 3 complete - students can view their dashboard
 
@@ -201,8 +201,8 @@
 
 ### Parent Dashboard Components
 
-- [ ] T085 [P] [US4] Create ChildCard component (child overview card) in src/components/portal/child-card.tsx
-- [ ] T086 [P] [US4] Create NotificationsList component in src/components/portal/notifications-list.tsx
+- [X] T085 [P] [US4] Create ChildCard component (child overview card) in src/components/portal/child-card.tsx
+- [X] T086 [P] [US4] Create NotificationsList component in src/components/portal/notifications-list.tsx
 
 ### Parent API Routes
 
@@ -216,7 +216,7 @@
 
 ### Parent Dashboard Pages
 
-- [ ] T094 [US4] Create parent dashboard page in src/app/(portal)/parent/page.tsx
+- [X] T094 [US4] Create parent dashboard page in src/app/(portal)/parent/page.tsx
 - [ ] T095 [US4] Create child detail page in src/app/(portal)/parent/child/[id]/page.tsx
 
 **Checkpoint**: User Story 4 complete - parents can monitor all children's progress
@@ -231,9 +231,9 @@
 
 ### Teacher Dashboard Components
 
-- [ ] T096 [P] [US5] Create ClassList component (assigned classes) in src/components/portal/class-list.tsx
-- [ ] T097 [P] [US5] Create ClassRoster component (students in class) in src/components/portal/class-roster.tsx
-- [ ] T098 [P] [US5] Create AttendanceForm component (mark attendance) in src/components/forms/attendance-form.tsx
+- [X] T096 [P] [US5] Create ClassList component (assigned classes) in src/components/portal/class-list.tsx
+- [X] T097 [P] [US5] Create ClassRoster component (students in class) in src/components/portal/class-roster.tsx
+- [X] T098 [P] [US5] Create AttendanceForm component (mark attendance) in src/components/forms/attendance-form.tsx
 - [ ] T099 [P] [US5] Create GradeEntryForm component (enter grades) in src/components/forms/grade-entry-form.tsx
 
 ### Teacher API Routes
@@ -246,7 +246,7 @@
 
 ### Teacher Dashboard Pages
 
-- [ ] T105 [US5] Create teacher dashboard page in src/app/(portal)/teacher/page.tsx
+- [X] T105 [US5] Create teacher dashboard page in src/app/(portal)/teacher/page.tsx
 - [ ] T106 [US5] Create class detail page in src/app/(portal)/teacher/class/[id]/page.tsx
 - [ ] T107 [US5] Create attendance page in src/app/(portal)/teacher/class/[id]/attendance/page.tsx
 - [ ] T108 [US5] Create grades page in src/app/(portal)/teacher/class/[id]/grades/page.tsx
@@ -263,9 +263,9 @@
 
 ### Admin Dashboard Components
 
-- [ ] T109 [P] [US6] Create UserStats component (user counts by role) in src/components/portal/user-stats.tsx
-- [ ] T110 [P] [US6] Create ApplicationsTable component in src/components/portal/applications-table.tsx
-- [ ] T111 [P] [US6] Create FeeSummary component in src/components/portal/fee-summary.tsx
+- [X] T109 [P] [US6] Create UserStats component (user counts by role) in src/components/portal/user-stats.tsx
+- [X] T110 [P] [US6] Create ApplicationsTable component in src/components/portal/applications-table.tsx
+- [X] T111 [P] [US6] Create FeeSummary component in src/components/portal/fee-summary.tsx
 - [ ] T112 [P] [US6] Create UsersTable component in src/components/portal/users-table.tsx
 
 ### Admin API Routes
@@ -280,7 +280,7 @@
 
 ### Admin Dashboard Pages
 
-- [ ] T120 [US6] Create admin dashboard page in src/app/(portal)/admin/page.tsx
+- [X] T120 [US6] Create admin dashboard page in src/app/(portal)/admin/page.tsx
 - [ ] T121 [US6] Create applications list page in src/app/(portal)/admin/applications/page.tsx
 - [ ] T122 [US6] Create application detail page in src/app/(portal)/admin/applications/[id]/page.tsx
 - [ ] T123 [US6] Create users management page in src/app/(portal)/admin/users/page.tsx
@@ -299,7 +299,7 @@
 - [ ] T125 [P] [US7] Create ClubCard component in src/components/student-life/club-card.tsx
 - [ ] T126 [P] [US7] Create SportsTeamCard component in src/components/student-life/sports-card.tsx
 - [ ] T127 [P] [US7] Create PhotoGallery component (grid with lightbox) in src/components/student-life/photo-gallery.tsx
-- [ ] T128 [US7] Create Student Life page in src/app/(public)/student-life/page.tsx
+- [X] T128 [US7] Create Student Life page in src/app/(public)/student-life/page.tsx
 - [ ] T129 [P] [US7] Create student-life translation file in public/locales/en/student-life.json
 
 **Checkpoint**: User Story 7 complete - visitors can explore student life
@@ -324,14 +324,14 @@
 
 ### News & Events API Routes
 
-- [ ] T134 [US8] Create GET /api/news route with pagination/filtering in src/app/api/news/route.ts
+- [X] T134 [US8] Create GET /api/news route with pagination/filtering in src/app/api/news/route.ts
 - [ ] T135 [P] [US8] Create GET /api/news/[slug] route in src/app/api/news/[slug]/route.ts
 - [ ] T136 [P] [US8] Create GET /api/events route in src/app/api/events/route.ts
 - [ ] T137 [P] [US8] Create GET /api/newsletters route in src/app/api/newsletters/route.ts
 
 ### News & Events Pages
 
-- [ ] T138 [US8] Create news list page in src/app/(public)/news/page.tsx
+- [X] T138 [US8] Create news list page in src/app/(public)/news/page.tsx
 - [ ] T139 [US8] Create news article page in src/app/(public)/news/[slug]/page.tsx
 - [ ] T140 [US8] Create events page in src/app/(public)/events/page.tsx
 - [ ] T141 [P] [US8] Create news translation file in public/locales/en/news.json
@@ -349,7 +349,7 @@
 - [ ] T142 [US9] Create Zod validation schema for contact in src/lib/validations/contact.ts
 - [ ] T143 [P] [US9] Create ContactForm component in src/components/forms/contact-form.tsx
 - [ ] T144 [US9] Create POST /api/contact route with email in src/app/api/contact/route.ts
-- [ ] T145 [US9] Create Contact page with form, map, info in src/app/(public)/contact/page.tsx
+- [X] T145 [US9] Create Contact page with form, map, info in src/app/(public)/contact/page.tsx
 - [ ] T146 [P] [US9] Create contact translation file in public/locales/en/contact.json
 
 **Checkpoint**: User Story 9 complete - visitors can contact the school
@@ -366,7 +366,7 @@
 - [ ] T148 [P] [US10] Create StaffGrid component with search in src/components/staff/staff-grid.tsx
 - [ ] T149 [US10] Create GET /api/staff route in src/app/api/staff/route.ts
 - [ ] T150 [P] [US10] Create GET /api/staff/[id] route in src/app/api/staff/[id]/route.ts
-- [ ] T151 [US10] Create staff directory page in src/app/(public)/staff/page.tsx
+- [X] T151 [US10] Create staff directory page in src/app/(public)/staff/page.tsx
 - [ ] T152 [US10] Create staff profile page in src/app/(public)/staff/[id]/page.tsx
 
 **Checkpoint**: User Story 10 complete - visitors can find staff members
