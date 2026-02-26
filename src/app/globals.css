@@ -97,7 +97,98 @@ body {
 
 /* RTL Support for Urdu */
 [dir="rtl"] {
-  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Noto Sans Arabic", serif;
+}
+
+/* RTL-specific layout adjustments */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* Flip icons and directional elements in RTL */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* RTL margin/padding adjustments */
+[dir="rtl"] .ml-auto {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+[dir="rtl"] .mr-auto {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* RTL flex direction */
+[dir="rtl"] .rtl-reverse {
+  flex-direction: row-reverse;
+}
+
+/* RTL grid adjustments */
+[dir="rtl"] .rtl-grid-reverse {
+  direction: rtl;
+}
+
+/* RTL border adjustments */
+[dir="rtl"] .border-l {
+  border-left: none;
+  border-right-width: 1px;
+}
+
+[dir="rtl"] .border-r {
+  border-right: none;
+  border-left-width: 1px;
+}
+
+/* RTL rounded corners */
+[dir="rtl"] .rounded-l {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+[dir="rtl"] .rounded-r {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+}
+
+/* RTL spacing utilities */
+[dir="rtl"] .space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+/* RTL text alignment for forms */
+[dir="rtl"] input,
+[dir="rtl"] textarea,
+[dir="rtl"] select {
+  text-align: right;
+}
+
+/* RTL dropdown menus */
+[dir="rtl"] [data-radix-popper-content-wrapper] {
+  direction: rtl;
+}
+
+/* Urdu font class */
+.font-urdu {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Noto Sans Arabic", serif;
+  line-height: 2;
+}
+
+/* Better line height for Urdu text */
+[dir="rtl"] p,
+[dir="rtl"] span,
+[dir="rtl"] li {
+  line-height: 1.8;
 }
 
 /* Smooth scrolling */
@@ -205,6 +296,19 @@ html {
 
 .animate-slide-down {
   animation: slide-down 0.3s ease-out;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
 }
 
 /* Container utility */

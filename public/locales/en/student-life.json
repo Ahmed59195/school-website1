@@ -1,0 +1,150 @@
+{
+  "title": "Student Life",
+  "subtitle": "Explore the vibrant campus life at Al-Noor Academy",
+  "intro": "At Al-Noor Academy, we believe education extends beyond the classroom. Our diverse range of extracurricular activities helps students discover their passions, develop leadership skills, and build lasting friendships.",
+
+  "clubs": {
+    "title": "Clubs & Societies",
+    "subtitle": "Join a community of like-minded students",
+    "viewAll": "View All Clubs",
+    "members": "Members",
+    "meetingSchedule": "Meeting Schedule",
+    "advisor": "Advisor",
+    "joinClub": "Join Club",
+    "list": {
+      "debate": {
+        "name": "Debate Club",
+        "description": "Develop critical thinking and public speaking skills through competitive debates and discussions."
+      },
+      "science": {
+        "name": "Science Club",
+        "description": "Explore the wonders of science through experiments, projects, and science fairs."
+      },
+      "art": {
+        "name": "Art & Craft Club",
+        "description": "Express your creativity through various art forms including painting, calligraphy, and crafts."
+      },
+      "quran": {
+        "name": "Quran Study Circle",
+        "description": "Deepen your understanding of the Holy Quran through recitation, tajweed, and tafseer."
+      },
+      "robotics": {
+        "name": "Robotics Club",
+        "description": "Build and program robots while learning about engineering and technology."
+      },
+      "drama": {
+        "name": "Drama Club",
+        "description": "Develop acting skills and participate in theatrical productions and skits."
+      }
+    }
+  },
+
+  "sports": {
+    "title": "Sports & Athletics",
+    "subtitle": "Building champions on and off the field",
+    "viewAll": "View All Sports",
+    "coach": "Coach",
+    "practiceSchedule": "Practice Schedule",
+    "achievements": "Achievements",
+    "joinTeam": "Join Team",
+    "list": {
+      "cricket": {
+        "name": "Cricket",
+        "description": "Our cricket team competes at district and provincial levels with excellent coaching facilities."
+      },
+      "football": {
+        "name": "Football",
+        "description": "Train with professional coaches and compete in inter-school tournaments."
+      },
+      "basketball": {
+        "name": "Basketball",
+        "description": "Indoor basketball courts with regular training sessions and competitions."
+      },
+      "badminton": {
+        "name": "Badminton",
+        "description": "State-of-the-art indoor courts for both recreational and competitive play."
+      },
+      "tabletennis": {
+        "name": "Table Tennis",
+        "description": "Multiple tables available for practice and inter-house competitions."
+      },
+      "athletics": {
+        "name": "Athletics",
+        "description": "Track and field events including running, long jump, and shot put."
+      }
+    }
+  },
+
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Capturing memories and moments",
+    "viewAll": "View Full Gallery",
+    "categories": {
+      "all": "All",
+      "events": "Events",
+      "sports": "Sports",
+      "academics": "Academics",
+      "celebrations": "Celebrations"
+    }
+  },
+
+  "council": {
+    "title": "Student Council",
+    "subtitle": "Student leadership and governance",
+    "description": "Our Student Council provides students with the opportunity to develop leadership skills, represent their peers, and contribute to school improvement initiatives.",
+    "positions": {
+      "president": "President",
+      "vicePresident": "Vice President",
+      "secretary": "Secretary",
+      "treasurer": "Treasurer",
+      "representative": "Class Representative"
+    },
+    "responsibilities": "Responsibilities",
+    "elections": "Annual Elections",
+    "activities": "Council Activities"
+  },
+
+  "facilities": {
+    "title": "Campus Facilities",
+    "subtitle": "Modern amenities for holistic development",
+    "list": {
+      "library": {
+        "name": "Library",
+        "description": "Well-stocked library with over 10,000 books, journals, and digital resources."
+      },
+      "labs": {
+        "name": "Science Labs",
+        "description": "Fully equipped physics, chemistry, biology, and computer laboratories."
+      },
+      "playground": {
+        "name": "Playground",
+        "description": "Large outdoor playground with cricket pitch, football field, and athletics track."
+      },
+      "cafeteria": {
+        "name": "Cafeteria",
+        "description": "Hygienic cafeteria serving nutritious meals and snacks."
+      },
+      "auditorium": {
+        "name": "Auditorium",
+        "description": "500-seat auditorium for assemblies, performances, and events."
+      },
+      "mosque": {
+        "name": "Masjid",
+        "description": "On-campus mosque for daily prayers and Friday congregation."
+      }
+    }
+  },
+
+  "events": {
+    "title": "Annual Events",
+    "subtitle": "Celebrating achievements and milestones",
+    "list": {
+      "sportsDay": "Annual Sports Day",
+      "scienceFair": "Science Fair",
+      "annualDay": "Annual Day & Prize Distribution",
+      "quranCompetition": "Quran Recitation Competition",
+      "independenceDay": "Independence Day Celebration",
+      "culturalFestival": "Cultural Festival"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="grad-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7"/>
+      <stop offset="100%" style="stop-color:#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#grad-bg)"/>
+  <!-- Stage -->
+  <rect x="0" y="300" width="600" height="100" fill="#7c2d12"/>
+  <rect x="0" y="290" width="600" height="15" fill="#92400e"/>
+  <!-- Podium -->
+  <rect x="250" y="220" width="100" height="80" fill="#854d0e"/>
+  <rect x="260" y="230" width="80" height="10" fill="#a16207"/>
+  <!-- Curtains -->
+  <path d="M0 0 Q30 100 0 200 L0 0" fill="#dc2626"/>
+  <path d="M600 0 Q570 100 600 200 L600 0" fill="#dc2626"/>
+  <!-- Graduate 1 -->
+  <circle cx="150" cy="220" r="25" fill="#fcd5b5"/>
+  <polygon points="125,200 175,200 150,180" fill="#1e293b"/>
+  <rect x="140" y="175" width="20" height="5" fill="#1e293b"/>
+  <line x1="160" y1="177" x2="180" y2="165" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="180" cy="162" r="5" fill="#fbbf24"/>
+  <ellipse cx="150" cy="270" rx="30" ry="25" fill="#1e293b"/>
+  <!-- Graduate 2 (center) -->
+  <circle cx="300" cy="180" r="30" fill="#e8c4a0"/>
+  <polygon points="265,155 335,155 300,130" fill="#1e293b"/>
+  <rect x="287" y="125" width="26" height="6" fill="#1e293b"/>
+  <line x1="313" y1="128" x2="340" y2="112" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="343" cy="108" r="6" fill="#fbbf24"/>
+  <ellipse cx="300" cy="240" rx="35" ry="30" fill="#1e293b"/>
+  <!-- Diploma -->
+  <rect x="280" y="250" width="40" height="30" fill="#fef3c7" rx="2"/>
+  <rect x="285" y="275" width="30" height="3" fill="#dc2626"/>
+  <!-- Graduate 3 -->
+  <circle cx="450" cy="220" r="25" fill="#fcd5b5"/>
+  <polygon points="425,200 475,200 450,180" fill="#1e293b"/>
+  <rect x="440" y="175" width="20" height="5" fill="#1e293b"/>
+  <line x1="460" y1="177" x2="480" y2="165" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="483" cy="162" r="5" fill="#fbbf24"/>
+  <ellipse cx="450" cy="270" rx="30" ry="25" fill="#1e293b"/>
+  <!-- Confetti -->
+  <rect x="50" y="50" width="8" height="8" fill="#fbbf24" transform="rotate(30 54 54)"/>
+  <rect x="120" y="80" width="6" height="6" fill="#3b82f6" transform="rotate(45 123 83)"/>
+  <rect x="200" y="40" width="7" height="7" fill="#10b981" transform="rotate(20 203 43)"/>
+  <rect x="380" y="60" width="8" height="8" fill="#ec4899" transform="rotate(50 384 64)"/>
+  <rect x="500" y="90" width="6" height="6" fill="#f97316" transform="rotate(35 503 93)"/>
+  <rect x="550" y="50" width="7" height="7" fill="#8b5cf6" transform="rotate(25 553 53)"/>
+  <rect x="80" y="150" width="5" height="5" fill="#ef4444"/>
+  <rect x="520" y="180" width="5" height="5" fill="#22c55e"/>
+  <!-- Banner -->
+  <rect x="150" y="30" width="300" height="50" fill="#1e40af" rx="5"/>
+  <text x="300" y="62" text-anchor="middle" font-family="Georgia" font-size="24" fill="white" font-weight="bold">Congratulations!</text>
+</svg>

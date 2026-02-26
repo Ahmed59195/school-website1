@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="prin-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7"/>
+      <stop offset="100%" style="stop-color:#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#prin-bg)"/>
+  <!-- Body with formal suit -->
+  <ellipse cx="100" cy="220" rx="70" ry="50" fill="#1e293b"/>
+  <!-- Neck -->
+  <rect x="85" y="130" width="30" height="25" fill="#e8c4a0"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="90" rx="45" ry="50" fill="#e8c4a0"/>
+  <!-- Grey hair -->
+  <ellipse cx="100" cy="52" rx="42" ry="25" fill="#9ca3af"/>
+  <rect x="58" y="55" width="10" height="25" fill="#9ca3af"/>
+  <rect x="132" y="55" width="10" height="25" fill="#9ca3af"/>
+  <!-- Glasses -->
+  <circle cx="78" cy="88" r="15" fill="none" stroke="#374151" stroke-width="2"/>
+  <circle cx="122" cy="88" r="15" fill="none" stroke="#374151" stroke-width="2"/>
+  <line x1="93" y1="88" x2="107" y2="88" stroke="#374151" stroke-width="2"/>
+  <line x1="63" y1="85" x2="55" y2="80" stroke="#374151" stroke-width="2"/>
+  <line x1="137" y1="85" x2="145" y2="80" stroke="#374151" stroke-width="2"/>
+  <!-- Eyes behind glasses -->
+  <ellipse cx="78" cy="90" rx="4" ry="3" fill="#1e293b"/>
+  <ellipse cx="122" cy="90" rx="4" ry="3" fill="#1e293b"/>
+  <!-- Eyebrows -->
+  <path d="M65 75 Q78 70 90 75" stroke="#6b7280" stroke-width="2" fill="none"/>
+  <path d="M110 75 Q122 70 135 75" stroke="#6b7280" stroke-width="2" fill="none"/>
+  <!-- Nose -->
+  <path d="M100 95 L103 110 L97 110" fill="#d4a574"/>
+  <!-- Slight smile -->
+  <path d="M88 120 Q100 128 112 120" stroke="#92400e" stroke-width="2" fill="none"/>
+  <!-- Collar -->
+  <path d="M70 155 L85 145 L100 160 L115 145 L130 155" fill="white"/>
+  <!-- Tie -->
+  <polygon points="95,155 105,155 102,190 98,190" fill="#1e40af"/>
+  <polygon points="93,155 107,155 105,165 95,165" fill="#1e40af"/>
+</svg>

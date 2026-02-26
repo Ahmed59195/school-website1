@@ -1,0 +1,71 @@
+{
+  "title": "News & Updates",
+  "subtitle": "Stay informed about the latest happenings at Al-Noor Academy",
+
+  "filters": {
+    "search": "Search news...",
+    "category": "Category",
+    "all": "All Categories",
+    "sortBy": "Sort By",
+    "newest": "Newest First",
+    "oldest": "Oldest First"
+  },
+
+  "categories": {
+    "announcements": "Announcements",
+    "academic": "Academic",
+    "sports": "Sports",
+    "events": "Events",
+    "achievements": "Achievements",
+    "general": "General"
+  },
+
+  "article": {
+    "readMore": "Read More",
+    "publishedOn": "Published on",
+    "author": "By",
+    "category": "Category",
+    "share": "Share",
+    "relatedArticles": "Related Articles",
+    "backToNews": "Back to News",
+    "minuteRead": "min read"
+  },
+
+  "empty": {
+    "title": "No News Found",
+    "description": "There are no news articles matching your criteria. Please try a different search or category.",
+    "clearFilters": "Clear Filters"
+  },
+
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "showing": "Showing",
+    "results": "results"
+  },
+
+  "featured": {
+    "title": "Featured Stories",
+    "viewAll": "View All News"
+  },
+
+  "newsletter": {
+    "title": "Newsletter Archive",
+    "subtitle": "Download past newsletters",
+    "download": "Download",
+    "viewAll": "View All Newsletters",
+    "publishedOn": "Published"
+  },
+
+  "social": {
+    "share": "Share this article",
+    "facebook": "Share on Facebook",
+    "twitter": "Share on Twitter",
+    "whatsapp": "Share on WhatsApp",
+    "linkedin": "Share on LinkedIn",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!"
+  }
+}

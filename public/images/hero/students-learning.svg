@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f9ff"/>
+      <stop offset="100%" style="stop-color:#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#hero-bg)"/>
+  <!-- Classroom setting -->
+  <rect x="50" y="400" width="700" height="150" fill="#8b5cf6" opacity="0.1" rx="10"/>
+  <!-- Desk 1 -->
+  <rect x="100" y="350" width="150" height="80" fill="#d4a574" rx="5"/>
+  <rect x="100" y="340" width="150" height="15" fill="#b8956c" rx="3"/>
+  <!-- Student 1 -->
+  <circle cx="175" cy="280" r="35" fill="#fcd5b5"/>
+  <ellipse cx="175" cy="320" rx="40" ry="30" fill="#3b82f6"/>
+  <rect x="140" y="370" width="30" height="40" fill="#fcd5b5"/>
+  <rect x="180" y="370" width="30" height="40" fill="#fcd5b5"/>
+  <!-- Book -->
+  <rect x="125" y="355" width="40" height="30" fill="#ef4444" rx="2"/>
+  <rect x="175" y="355" width="40" height="30" fill="#10b981" rx="2"/>
+  <!-- Desk 2 -->
+  <rect x="320" y="350" width="150" height="80" fill="#d4a574" rx="5"/>
+  <rect x="320" y="340" width="150" height="15" fill="#b8956c" rx="3"/>
+  <!-- Student 2 -->
+  <circle cx="395" cy="280" r="35" fill="#e8c4a0"/>
+  <ellipse cx="395" cy="320" rx="40" ry="30" fill="#ec4899"/>
+  <rect x="360" y="370" width="30" height="40" fill="#e8c4a0"/>
+  <rect x="400" y="370" width="30" height="40" fill="#e8c4a0"/>
+  <!-- Laptop -->
+  <rect x="350" y="345" width="50" height="35" fill="#374151" rx="3"/>
+  <rect x="340" y="378" width="70" height="5" fill="#6b7280" rx="1"/>
+  <!-- Desk 3 -->
+  <rect x="540" y="350" width="150" height="80" fill="#d4a574" rx="5"/>
+  <rect x="540" y="340" width="150" height="15" fill="#b8956c" rx="3"/>
+  <!-- Student 3 -->
+  <circle cx="615" cy="280" r="35" fill="#fcd5b5"/>
+  <ellipse cx="615" cy="320" rx="40" ry="30" fill="#10b981"/>
+  <rect x="580" y="370" width="30" height="40" fill="#fcd5b5"/>
+  <rect x="620" y="370" width="30" height="40" fill="#fcd5b5"/>
+  <!-- Pencil -->
+  <rect x="590" y="355" width="60" height="8" fill="#fbbf24"/>
+  <!-- Blackboard -->
+  <rect x="200" y="100" width="400" height="120" fill="#166534" rx="5"/>
+  <rect x="195" y="95" width="410" height="130" fill="none" stroke="#854d0e" stroke-width="8" rx="8"/>
+  <text x="400" y="160" text-anchor="middle" font-family="Comic Sans MS, cursive" font-size="24" fill="white">Welcome to Class!</text>
+  <text x="400" y="195" text-anchor="middle" font-family="Comic Sans MS, cursive" font-size="18" fill="rgba(255,255,255,0.8)">2 + 2 = 4</text>
+  <!-- Teacher desk -->
+  <rect x="620" y="150" width="120" height="60" fill="#92400e" rx="5"/>
+  <rect x="650" y="130" width="60" height="30" fill="#dc2626" rx="3"/>
+</svg>

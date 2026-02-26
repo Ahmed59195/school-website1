@@ -1,0 +1,71 @@
+{
+  "title": "خبریں اور اپڈیٹس",
+  "subtitle": "النور اکیڈمی میں تازہ ترین واقعات سے باخبر رہیں",
+
+  "filters": {
+    "search": "خبریں تلاش کریں...",
+    "category": "زمرہ",
+    "all": "تمام زمرے",
+    "sortBy": "ترتیب",
+    "newest": "نئی پہلے",
+    "oldest": "پرانی پہلے"
+  },
+
+  "categories": {
+    "announcements": "اعلانات",
+    "academic": "تعلیمی",
+    "sports": "کھیل",
+    "events": "تقریبات",
+    "achievements": "کامیابیاں",
+    "general": "عمومی"
+  },
+
+  "article": {
+    "readMore": "مزید پڑھیں",
+    "publishedOn": "شائع",
+    "author": "از",
+    "category": "زمرہ",
+    "share": "شیئر کریں",
+    "relatedArticles": "متعلقہ مضامین",
+    "backToNews": "خبروں پر واپس",
+    "minuteRead": "منٹ پڑھیں"
+  },
+
+  "empty": {
+    "title": "کوئی خبر نہیں ملی",
+    "description": "آپ کے معیار سے ملنے والے کوئی خبریں نہیں ہیں۔ براہ کرم مختلف تلاش یا زمرہ آزمائیں۔",
+    "clearFilters": "فلٹرز صاف کریں"
+  },
+
+  "pagination": {
+    "previous": "پچھلا",
+    "next": "اگلا",
+    "page": "صفحہ",
+    "of": "از",
+    "showing": "دکھا رہا ہے",
+    "results": "نتائج"
+  },
+
+  "featured": {
+    "title": "نمایاں کہانیاں",
+    "viewAll": "تمام خبریں دیکھیں"
+  },
+
+  "newsletter": {
+    "title": "نیوز لیٹر آرکائیو",
+    "subtitle": "پچھلے نیوز لیٹرز ڈاؤن لوڈ کریں",
+    "download": "ڈاؤن لوڈ",
+    "viewAll": "تمام نیوز لیٹرز دیکھیں",
+    "publishedOn": "شائع"
+  },
+
+  "social": {
+    "share": "یہ مضمون شیئر کریں",
+    "facebook": "فیس بک پر شیئر کریں",
+    "twitter": "ٹویٹر پر شیئر کریں",
+    "whatsapp": "واٹس ایپ پر شیئر کریں",
+    "linkedin": "لنکڈ ان پر شیئر کریں",
+    "copyLink": "لنک کاپی کریں",
+    "linkCopied": "لنک کلپ بورڈ پر کاپی ہو گیا!"
+  }
+}

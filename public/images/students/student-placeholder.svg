@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="stud-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecfdf5"/>
+      <stop offset="100%" style="stop-color:#d1fae5"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#stud-bg)"/>
+  <!-- Uniform body -->
+  <ellipse cx="100" cy="220" rx="65" ry="50" fill="#1e40af"/>
+  <!-- White shirt collar -->
+  <polygon points="70,155 100,175 130,155 125,180 100,190 75,180" fill="white"/>
+  <!-- Neck -->
+  <rect x="87" y="130" width="26" height="25" fill="#fcd5b5"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="90" rx="42" ry="48" fill="#fcd5b5"/>
+  <!-- Hair -->
+  <ellipse cx="100" cy="52" rx="40" ry="22" fill="#1e293b"/>
+  <!-- Eyes -->
+  <ellipse cx="82" cy="88" rx="6" ry="5" fill="#1e293b"/>
+  <ellipse cx="118" cy="88" rx="6" ry="5" fill="#1e293b"/>
+  <!-- Eye shine -->
+  <circle cx="84" cy="86" r="2" fill="white"/>
+  <circle cx="120" cy="86" r="2" fill="white"/>
+  <!-- Eyebrows -->
+  <path d="M72 78 Q82 74 92 78" stroke="#374151" stroke-width="2" fill="none"/>
+  <path d="M108 78 Q118 74 128 78" stroke="#374151" stroke-width="2" fill="none"/>
+  <!-- Nose -->
+  <ellipse cx="100" cy="102" rx="4" ry="6" fill="#e8b89d"/>
+  <!-- Smile -->
+  <path d="M88 115 Q100 125 112 115" stroke="#f97316" stroke-width="2.5" fill="none"/>
+  <!-- Ears -->
+  <ellipse cx="55" cy="90" rx="8" ry="12" fill="#fcd5b5"/>
+  <ellipse cx="145" cy="90" rx="8" ry="12" fill="#fcd5b5"/>
+  <!-- School tie -->
+  <polygon points="96,170 104,170 102,195 98,195" fill="#10b981"/>
+  <polygon points="94,167 106,167 104,170 96,170" fill="#10b981"/>
+</svg>

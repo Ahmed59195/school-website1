@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="lab-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4"/>
+      <stop offset="100%" style="stop-color:#dcfce7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#lab-bg)"/>
+  <!-- Lab table -->
+  <rect x="50" y="250" width="500" height="20" fill="#6b7280"/>
+  <rect x="60" y="270" width="15" height="100" fill="#4b5563"/>
+  <rect x="525" y="270" width="15" height="100" fill="#4b5563"/>
+  <!-- Flask 1 -->
+  <path d="M120 180 L120 220 L100 250 L140 250 L120 220" fill="none" stroke="#1f2937" stroke-width="3"/>
+  <ellipse cx="120" cy="235" rx="18" ry="12" fill="#3b82f6" opacity="0.7"/>
+  <circle cx="120" cy="175" r="12" fill="none" stroke="#1f2937" stroke-width="2"/>
+  <!-- Bubbles -->
+  <circle cx="115" cy="225" r="3" fill="#60a5fa"/>
+  <circle cx="125" cy="218" r="2" fill="#60a5fa"/>
+  <circle cx="118" cy="210" r="2.5" fill="#60a5fa"/>
+  <!-- Test tubes -->
+  <rect x="200" y="180" width="12" height="70" fill="#fef3c7" rx="6"/>
+  <rect x="220" y="190" width="12" height="60" fill="#dcfce7" rx="6"/>
+  <rect x="240" y="175" width="12" height="75" fill="#fce7f3" rx="6"/>
+  <!-- Test tube rack -->
+  <rect x="190" y="245" width="75" height="8" fill="#92400e"/>
+  <!-- Microscope -->
+  <rect x="350" y="200" width="40" height="50" fill="#374151" rx="5"/>
+  <rect x="365" y="170" width="10" height="35" fill="#1f2937"/>
+  <ellipse cx="370" cy="165" rx="20" ry="10" fill="#4b5563"/>
+  <rect x="340" y="240" width="60" height="10" fill="#1f2937" rx="3"/>
+  <!-- Beaker -->
+  <path d="M450 190 L450 240 L430 250 L490 250 L470 240 L470 190" fill="none" stroke="#1f2937" stroke-width="2"/>
+  <rect x="455" y="210" width="10" height="35" fill="#10b981" opacity="0.6"/>
+  <!-- Poster in background -->
+  <rect x="100" y="50" width="150" height="100" fill="white" stroke="#e5e7eb"/>
+  <text x="175" y="90" text-anchor="middle" font-size="12" fill="#1e40af" font-weight="bold">DNA Structure</text>
+  <path d="M150 100 Q160 115 150 130 Q140 145 150 160" stroke="#ef4444" stroke-width="2" fill="none"/>
+  <path d="M180 100 Q170 115 180 130 Q190 145 180 160" stroke="#3b82f6" stroke-width="2" fill="none"/>
+  <!-- Another poster -->
+  <rect x="350" y="50" width="150" height="100" fill="white" stroke="#e5e7eb"/>
+  <text x="425" y="80" text-anchor="middle" font-size="12" fill="#1e40af" font-weight="bold">Solar System</text>
+  <circle cx="425" cy="115" r="15" fill="#fbbf24"/>
+  <circle cx="405" cy="120" r="4" fill="#6b7280"/>
+  <circle cx="445" cy="110" r="6" fill="#dc2626"/>
+  <circle cx="460" cy="130" r="8" fill="#f97316"/>
+  <!-- Award ribbon -->
+  <circle cx="530" cy="100" r="25" fill="#fbbf24"/>
+  <polygon points="515,120 530,150 545,120" fill="#dc2626"/>
+  <polygon points="520,120 530,145 540,120" fill="#fbbf24"/>
+  <text x="530" y="105" text-anchor="middle" font-size="12" fill="#1e40af" font-weight="bold">1st</text>
+</svg>

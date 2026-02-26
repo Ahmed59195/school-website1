@@ -42,10 +42,10 @@ export const metadata: Metadata = {
       "Premier K-12 educational institution dedicated to nurturing young minds with quality education and Islamic values.",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Al-Noor Academy",
+        alt: "Al-Noor Academy - Empowering Minds, Shaping Futures",
       },
     ],
   },
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "Al-Noor Academy | Empowering Minds, Shaping Futures",
     description:
       "Premier K-12 educational institution dedicated to nurturing young minds with quality education and Islamic values.",
-    images: ["/images/og-image.jpg"],
+    images: ["/images/og-image.svg"],
   },
   robots: {
     index: true,
@@ -68,9 +68,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/images/favicon.svg",
+    shortcut: "/images/favicon.svg",
+    apple: "/images/favicon.svg",
   },
 }
 

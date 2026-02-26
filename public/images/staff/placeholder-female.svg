@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bg-f" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce7f3"/>
+      <stop offset="100%" style="stop-color:#fbcfe8"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bg-f)"/>
+  <!-- Hijab outer -->
+  <ellipse cx="100" cy="95" rx="58" ry="65" fill="#1e40af"/>
+  <!-- Hijab inner frame -->
+  <ellipse cx="100" cy="90" rx="40" ry="45" fill="#fcd5b5"/>
+  <!-- Hair hint under hijab -->
+  <ellipse cx="100" cy="55" rx="35" ry="15" fill="#1e293b"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="95" rx="35" ry="40" fill="#fcd5b5"/>
+  <!-- Eyes -->
+  <ellipse cx="85" cy="90" rx="5" ry="4" fill="#1e293b"/>
+  <ellipse cx="115" cy="90" rx="5" ry="4" fill="#1e293b"/>
+  <!-- Eyelashes -->
+  <path d="M80 86 L78 83" stroke="#1e293b" stroke-width="1"/>
+  <path d="M85 85 L85 82" stroke="#1e293b" stroke-width="1"/>
+  <path d="M90 86 L92 83" stroke="#1e293b" stroke-width="1"/>
+  <path d="M110 86 L108 83" stroke="#1e293b" stroke-width="1"/>
+  <path d="M115 85 L115 82" stroke="#1e293b" stroke-width="1"/>
+  <path d="M120 86 L122 83" stroke="#1e293b" stroke-width="1"/>
+  <!-- Eyebrows -->
+  <path d="M77 82 Q85 79 93 82" stroke="#374151" stroke-width="1.5" fill="none"/>
+  <path d="M107 82 Q115 79 123 82" stroke="#374151" stroke-width="1.5" fill="none"/>
+  <!-- Nose -->
+  <path d="M100 95 L102 105 L98 105" fill="#e8b89d"/>
+  <!-- Mouth -->
+  <path d="M92 115 Q100 120 108 115" stroke="#ec4899" stroke-width="2" fill="none"/>
+  <!-- Hijab drape -->
+  <path d="M42 95 Q50 150 70 180" stroke="#1e40af" stroke-width="20" fill="none"/>
+  <path d="M158 95 Q150 150 130 180" stroke="#1e40af" stroke-width="20" fill="none"/>
+  <!-- Body hint -->
+  <ellipse cx="100" cy="210" rx="60" ry="40" fill="#1e40af"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bg-m" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dbeafe"/>
+      <stop offset="100%" style="stop-color:#bfdbfe"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bg-m)"/>
+  <!-- Body/Shoulders -->
+  <ellipse cx="100" cy="220" rx="70" ry="50" fill="#1e40af"/>
+  <!-- Neck -->
+  <rect x="85" y="130" width="30" height="25" fill="#fcd5b5"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="90" rx="45" ry="50" fill="#fcd5b5"/>
+  <!-- Hair -->
+  <ellipse cx="100" cy="55" rx="42" ry="25" fill="#374151"/>
+  <rect x="58" y="55" width="10" height="30" fill="#374151"/>
+  <rect x="132" y="55" width="10" height="30" fill="#374151"/>
+  <!-- Eyes -->
+  <ellipse cx="80" cy="90" rx="6" ry="4" fill="#1e293b"/>
+  <ellipse cx="120" cy="90" rx="6" ry="4" fill="#1e293b"/>
+  <!-- Eyebrows -->
+  <path d="M70 80 Q80 77 90 80" stroke="#374151" stroke-width="2" fill="none"/>
+  <path d="M110 80 Q120 77 130 80" stroke="#374151" stroke-width="2" fill="none"/>
+  <!-- Nose -->
+  <path d="M100 95 L103 108 L97 108" fill="#e8b89d"/>
+  <!-- Mouth -->
+  <path d="M90 118 Q100 125 110 118" stroke="#d97706" stroke-width="2" fill="none"/>
+  <!-- Collar -->
+  <path d="M70 155 L85 145 L100 160 L115 145 L130 155" fill="white"/>
+  <!-- Tie -->
+  <polygon points="95,155 105,155 102,180 98,180" fill="#dc2626"/>
+</svg>

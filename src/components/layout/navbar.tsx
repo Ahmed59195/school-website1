@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -42,12 +43,22 @@ export function Navbar() {
       <nav className="container-custom flex h-16 items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold">
-            AN
-          </div>
-          <span className="hidden font-bold text-xl sm:inline-block">
-            Al-Noor Academy
-          </span>
+          <Image
+            src="/images/logo.svg"
+            alt="Al-Noor Academy"
+            width={160}
+            height={48}
+            className="h-10 w-auto dark:hidden"
+            priority
+          />
+          <Image
+            src="/images/logo.svg"
+            alt="Al-Noor Academy"
+            width={160}
+            height={48}
+            className="h-10 w-auto hidden dark:block"
+            priority
+          />
         </Link>
 
         {/* Desktop Navigation */}

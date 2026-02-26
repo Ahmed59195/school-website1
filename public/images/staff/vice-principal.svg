@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="vp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2fe"/>
+      <stop offset="100%" style="stop-color:#bae6fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#vp-bg)"/>
+  <!-- Hijab outer -->
+  <ellipse cx="100" cy="95" rx="60" ry="68" fill="#8b5cf6"/>
+  <!-- Hijab inner frame -->
+  <ellipse cx="100" cy="90" rx="42" ry="48" fill="#fcd5b5"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="95" rx="38" ry="43" fill="#fcd5b5"/>
+  <!-- Glasses -->
+  <rect x="70" y="82" width="22" height="16" fill="none" stroke="#374151" stroke-width="1.5" rx="3"/>
+  <rect x="108" y="82" width="22" height="16" fill="none" stroke="#374151" stroke-width="1.5" rx="3"/>
+  <line x1="92" y1="90" x2="108" y2="90" stroke="#374151" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <ellipse cx="81" cy="90" rx="4" ry="3" fill="#1e293b"/>
+  <ellipse cx="119" cy="90" rx="4" ry="3" fill="#1e293b"/>
+  <!-- Eyebrows -->
+  <path d="M72 80 Q81 77 90 80" stroke="#374151" stroke-width="1.5" fill="none"/>
+  <path d="M110 80 Q119 77 128 80" stroke="#374151" stroke-width="1.5" fill="none"/>
+  <!-- Nose -->
+  <path d="M100 95 L102 107 L98 107" fill="#e8b89d"/>
+  <!-- Warm smile -->
+  <path d="M90 118 Q100 125 110 118" stroke="#b45309" stroke-width="2" fill="none"/>
+  <!-- Hijab drape -->
+  <path d="M40 95 Q48 155 70 195" stroke="#8b5cf6" stroke-width="22" fill="none"/>
+  <path d="M160 95 Q152 155 130 195" stroke="#8b5cf6" stroke-width="22" fill="none"/>
+  <!-- Body -->
+  <ellipse cx="100" cy="215" rx="60" ry="42" fill="#8b5cf6"/>
+  <!-- Decorative pattern on hijab -->
+  <circle cx="65" cy="130" r="3" fill="#c4b5fd"/>
+  <circle cx="135" cy="130" r="3" fill="#c4b5fd"/>
+  <circle cx="55" cy="155" r="2" fill="#c4b5fd"/>
+  <circle cx="145" cy="155" r="2" fill="#c4b5fd"/>
+</svg>

@@ -68,19 +68,14 @@ export function AboutPreview() {
             </Button>
           </div>
 
-          {/* Image Placeholder */}
+          {/* Image */}
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl bg-muted overflow-hidden">
-              <div className="flex h-full items-center justify-center">
-                <div className="text-center">
-                  <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary font-bold text-2xl">
-                    AN
-                  </div>
-                  <p className="mt-4 text-sm text-muted-foreground">
-                    School Image
-                  </p>
-                </div>
-              </div>
+              <img
+                src="/images/campus/main-building.svg"
+                alt="Al-Noor Academy Campus"
+                className="h-full w-full object-cover"
+              />
             </div>
             {/* Decorative Elements */}
             <div className="absolute -bottom-4 -left-4 h-24 w-24 rounded-xl bg-primary/10 -z-10" />

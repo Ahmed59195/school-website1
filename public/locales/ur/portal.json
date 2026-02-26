@@ -1,0 +1,84 @@
+{
+  "common": {
+    "welcome": "خوش آمدید",
+    "dashboard": "ڈیش بورڈ",
+    "profile": "پروفائل",
+    "settings": "ترتیبات",
+    "signOut": "سائن آؤٹ",
+    "notifications": "اطلاعات"
+  },
+  "student": {
+    "title": "طالب علم ڈیش بورڈ",
+    "attendanceRate": "حاضری کی شرح",
+    "averageScore": "اوسط نمبر",
+    "pendingFees": "زیر التواء فیس",
+    "totalSubjects": "کل مضامین",
+    "recentGrades": "حالیہ گریڈز",
+    "upcomingEvents": "آنے والی تقریبات",
+    "feeStatus": "فیس کی حیثیت",
+    "schedule": "کلاس شیڈول",
+    "assignments": "اسائنمنٹس"
+  },
+  "parent": {
+    "title": "والدین ڈیش بورڈ",
+    "children": "میرے بچے",
+    "viewChild": "تفصیلات دیکھیں",
+    "notifications": "اطلاعات",
+    "payFees": "فیس ادا کریں"
+  },
+  "teacher": {
+    "title": "استاد ڈیش بورڈ",
+    "myClasses": "میری کلاسز",
+    "markAttendance": "حاضری لگائیں",
+    "enterGrades": "گریڈز درج کریں",
+    "viewRoster": "روسٹر دیکھیں",
+    "classSchedule": "کلاس شیڈول"
+  },
+  "admin": {
+    "title": "ایڈمن ڈیش بورڈ",
+    "totalUsers": "کل صارفین",
+    "pendingApplications": "زیر التواء درخواستیں",
+    "totalStudents": "کل طلباء",
+    "totalTeachers": "کل اساتذہ",
+    "feeCollection": "فیس وصولی",
+    "recentApplications": "حالیہ درخواستیں",
+    "manageUsers": "صارفین کا انتظام",
+    "systemSettings": "سسٹم کی ترتیبات"
+  },
+  "attendance": {
+    "title": "حاضری",
+    "present": "حاضر",
+    "absent": "غیر حاضر",
+    "late": "دیر سے",
+    "excused": "معذور",
+    "totalDays": "کل سکول کے دن",
+    "rate": "حاضری کی شرح"
+  },
+  "grades": {
+    "title": "گریڈز",
+    "subject": "مضمون",
+    "assessment": "جائزہ",
+    "score": "نمبر",
+    "grade": "گریڈ",
+    "term": "ٹرم",
+    "noGrades": "کوئی گریڈز دستیاب نہیں"
+  },
+  "fees": {
+    "title": "فیس",
+    "description": "تفصیل",
+    "amount": "رقم",
+    "dueDate": "آخری تاریخ",
+    "status": "حیثیت",
+    "payNow": "ابھی ادا کریں",
+    "paid": "ادا شدہ",
+    "pending": "زیر التواء",
+    "overdue": "میعاد ختم",
+    "partial": "جزوی"
+  },
+  "events": {
+    "title": "تقریبات",
+    "noEvents": "کوئی آنے والی تقریبات نہیں",
+    "location": "مقام",
+    "time": "وقت"
+  }
+}

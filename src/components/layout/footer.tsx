@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import {
   Facebook,
   Twitter,
@@ -42,21 +43,20 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* School Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-lg">
-                AN
-              </div>
-              <div>
-                <h3 className="font-bold text-lg">Al-Noor Academy</h3>
-                <p className="text-xs text-muted-foreground">
-                  Empowering Minds, Shaping Futures
-                </p>
-              </div>
-            </div>
+            <Link href="/" className="inline-block">
+              <Image
+                src="/images/logo.svg"
+                alt="Al-Noor Academy"
+                width={180}
+                height={54}
+                className="h-12 w-auto"
+              />
+            </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Al-Noor Academy is a premier K-12 educational institution
               dedicated to nurturing young minds with quality education, Islamic
-              values, and modern learning approaches.
+              values, and modern learning approaches. Established in 1999, we
+              have been shaping futures for over 25 years.
             </p>
           </div>
 
@@ -100,11 +100,11 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-primary" />
-                <span>123 Education Street, Karachi, Pakistan</span>
+                <span>123 Education Street, Gulberg III, Lahore, Pakistan</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 shrink-0 text-primary" />
-                <span>+92-21-1234567</span>
+                <span>+92-42-35761234</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 shrink-0 text-primary" />

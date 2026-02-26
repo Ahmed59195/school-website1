@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#1e40af"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+  <circle cx="100" cy="100" r="200" fill="rgba(59,130,246,0.1)"/>
+  <circle cx="1100" cy="530" r="250" fill="rgba(16,185,129,0.1)"/>
+  <circle cx="600" cy="315" r="80" fill="rgba(255,255,255,0.05)"/>
+  <g transform="translate(450, 200)">
+    <circle cx="60" cy="60" r="55" fill="white"/>
+    <path d="M60 25 L75 45 L60 38 L45 45 Z" fill="#fbbf24"/>
+    <path d="M38 52 L60 72 L82 52 L82 82 L60 95 L38 82 Z" fill="#1e40af"/>
+  </g>
+  <text x="600" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="white">Al-Noor Academy</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="rgba(255,255,255,0.8)" letter-spacing="8">EMPOWERING MINDS, SHAPING FUTURES</text>
+  <rect x="480" y="450" width="240" height="4" fill="url(#accent-grad)" rx="2"/>
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.6)">Premier K-12 Education in Pakistan</text>
+</svg>

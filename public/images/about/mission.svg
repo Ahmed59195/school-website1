@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="mission-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eff6ff"/>
+      <stop offset="100%" style="stop-color:#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#mission-bg)"/>
+  <!-- Target/bullseye -->
+  <circle cx="200" cy="150" r="100" fill="none" stroke="#dc2626" stroke-width="8"/>
+  <circle cx="200" cy="150" r="70" fill="none" stroke="#f97316" stroke-width="8"/>
+  <circle cx="200" cy="150" r="40" fill="none" stroke="#fbbf24" stroke-width="8"/>
+  <circle cx="200" cy="150" r="15" fill="#22c55e"/>
+  <!-- Arrow hitting target -->
+  <line x1="320" y1="50" x2="210" y2="140" stroke="#1e40af" stroke-width="4"/>
+  <polygon points="205,145 220,135 215,150 220,165 205,155" fill="#1e40af"/>
+  <!-- Arrow fletching -->
+  <polygon points="320,50 340,40 340,60 320,50" fill="#ef4444"/>
+  <polygon points="320,50 330,30 340,40 320,50" fill="#fbbf24"/>
+  <!-- Stars -->
+  <polygon points="60,50 65,65 80,65 68,75 73,90 60,80 47,90 52,75 40,65 55,65" fill="#fbbf24"/>
+  <polygon points="340,220 343,230 355,230 346,237 349,248 340,242 331,248 334,237 325,230 337,230" fill="#fbbf24"/>
+  <polygon points="50,220 53,228 62,228 55,233 58,242 50,237 42,242 45,233 38,228 47,228" fill="#fbbf24"/>
+  <!-- Decorative circles -->
+  <circle cx="80" cy="150" r="5" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="320" cy="150" r="5" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="200" cy="50" r="4" fill="#10b981" opacity="0.5"/>
+  <circle cx="200" cy="250" r="4" fill="#10b981" opacity="0.5"/>
+</svg>

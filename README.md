@@ -1,36 +1,180 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Al-Noor Academy School Website
+
+A comprehensive K-12 school website built with Next.js 15, featuring public pages, role-based authentication, and portals for students, parents, teachers, and administrators.
+
+## Features
+
+- **Public Website**: Homepage, About, Academics, Admissions, Student Life, News, Events, Staff Directory, Contact
+- **Authentication**: NextAuth.js with role-based access (Student, Parent, Teacher, Admin)
+- **Student Portal**: Dashboard with attendance, grades, fees, and upcoming events
+- **Parent Portal**: View all children's progress, attendance, grades, and fee payments
+- **Teacher Portal**: Manage classes, mark attendance, enter grades
+- **Admin Portal**: User management, application review, fee tracking, system settings
+- **Multi-language**: English and Urdu support with RTL layout
+- **Dark Mode**: Full dark/light theme support
+- **Payments**: Stripe integration for fee payments
+- **Responsive**: Mobile-first design for all devices
+
+## Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **UI Components**: shadcn/ui
+- **Database**: PostgreSQL with Prisma ORM
+- **Authentication**: NextAuth.js v5
+- **Payments**: Stripe
+- **Email**: SendGrid
+- **File Uploads**: Cloudinary
+- **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 20+
+- PostgreSQL database
+- Environment variables (see below)
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd school-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables:
+```bash
+cp .env.example .env
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Configure your `.env` file with the required values:
+```env
+# Database
+DATABASE_URL="postgresql://user:password@localhost:5432/school_db"
 
-## Learn More
+# NextAuth
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="your-secret-key"
 
-To learn more about Next.js, take a look at the following resources:
+# Cloudinary
+CLOUDINARY_CLOUD_NAME="your-cloud-name"
+CLOUDINARY_API_KEY="your-api-key"
+CLOUDINARY_API_SECRET="your-api-secret"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# SendGrid
+SENDGRID_API_KEY="your-sendgrid-key"
+EMAIL_FROM="noreply@alnooracademy.edu.pk"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Stripe
+STRIPE_SECRET_KEY="sk_test_..."
+STRIPE_WEBHOOK_SECRET="whsec_..."
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_test_..."
 
-## Deploy on Vercel
+# App
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Run database migrations:
+```bash
+npx prisma migrate dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+6. Seed the database (optional):
+```bash
+npx prisma db seed
+```
+
+7. Start the development server:
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the site.
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── (public)/          # Public pages (no auth required)
+│   ├── (auth)/            # Auth pages (login)
+│   ├── (portal)/          # Protected portal pages
+│   │   ├── student/       # Student dashboard
+│   │   ├── parent/        # Parent dashboard
+│   │   ├── teacher/       # Teacher dashboard
+│   │   └── admin/         # Admin dashboard
+│   └── api/               # API routes
+├── components/
+│   ├── ui/                # shadcn/ui components
+│   ├── layout/            # Layout components
+│   ├── forms/             # Form components
+│   ├── portal/            # Portal widgets
+│   └── shared/            # Shared components
+├── lib/                   # Utilities and configurations
+├── types/                 # TypeScript types
+└── hooks/                 # Custom React hooks
+
+public/
+├── locales/
+│   ├── en/                # English translations
+│   └── ur/                # Urdu translations
+├── images/                # Static images
+└── documents/             # Downloadable documents
+```
+
+## Default Credentials
+
+After seeding the database, you can log in with:
+
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | admin@alnooracademy.edu.pk | Admin123! |
+| Teacher | teacher1@alnooracademy.edu.pk | Teacher123! |
+| Parent | parent1@example.com | Parent123! |
+| Student | student1@alnooracademy.edu.pk | Student123! |
+
+**Note:** There are multiple teachers (teacher1-5), parents (parent1-3), and students (student1-5) with the same password pattern.
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npx prisma studio` - Open Prisma database GUI
+- `npx prisma migrate dev` - Run database migrations
+- `npx prisma db seed` - Seed the database
+
+## Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to a Git repository
+2. Import the project to Vercel
+3. Configure environment variables
+4. Deploy
+
+### Manual Deployment
+
+```bash
+npm run build
+npm run start
+```
+
+## Contributing
+
+1. Create a feature branch
+2. Make your changes
+3. Run linting: `npm run lint`
+4. Submit a pull request
+
+## License
+
+This project is proprietary software for Al-Noor Academy.

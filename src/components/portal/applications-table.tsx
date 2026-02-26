@@ -31,6 +31,7 @@ interface ApplicationsTableProps {
   applications: Application[]
   title?: string
   showViewAll?: boolean
+  showActions?: boolean
 }
 
 function getStatusColor(status: ApplicationStatus) {
@@ -52,6 +53,7 @@ export function ApplicationsTable({
   applications,
   title = "Recent Applications",
   showViewAll = true,
+  showActions = true,
 }: ApplicationsTableProps) {
   return (
     <Card>
